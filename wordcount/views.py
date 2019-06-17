@@ -16,3 +16,6 @@ def count(request):
     print(result)
 
     return render(request,'count.html',{'count_result':result.items()})
+
+def about(request):
+    return render(request,'about.html')
